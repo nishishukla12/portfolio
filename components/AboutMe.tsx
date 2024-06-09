@@ -3,7 +3,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div className="mt-[-4rem] bg-black pb-[3rem]">
+    <div className="mt-[-4rem] bg-black pb-[3rem]" id="about-sec">
       <div
         className="w-[80%] pt-[5rem] sm:pt-[7rem] md:pt-[10rem] mx-auto grid items-center grid-cols-1
        lg:grid-cols-2 gap-[2rem]"

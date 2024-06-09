@@ -15,19 +15,19 @@ function Services() {
        items-center"
       >
         <div>
-          <ServicesCard title="Shopify Website" num="01" />
+          <ServicesCard title="Shopify Website" num="01" content="A unique, branded theme designed to match the boutique’s aesthetic." />
         </div>
         <div>
-          <ServicesCard title="React Website" num="02" />
+          <ServicesCard title="React Website" num="02" content="My Awesome React App is a task management tool designed to help users organize their daily activities efficiently." />
         </div>
         <div>
-          <ServicesCard title="Wordpress Website" num="03" />
+          <ServicesCard title="Wordpress Website" num="03" content="A unique theme designed to reflect the brand's identity and appeal to tech enthusiasts." />
         </div>
         <div>
-          <ServicesCard title="Mobile App" num="04" />
+          <ServicesCard title="Bug Fixing" num="04" content="Fixing bugs improves the user experience and satisfaction." />
         </div>
         <div>
-          <ServicesCard title="Bug Fixing" num="06" />
+          <ServicesCard title="Figma Designs" num="06" content="The main workspace for creating and editing designs. Organizes all elements within your design." />
         </div>
       </div>
     </div>

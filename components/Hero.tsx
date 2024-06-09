@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="w-[100vw] pt-[4vh] md:pt-[12vh] h-[85vh] md:h-[100vh] custom-bg">
+    <div className="w-[100vw] pt-[4vh] md:pt-[12vh] h-[85vh] md:h-[100vh] custom-bg" id="hero-sec">
       <div className="flex justify-center flex-col w-[80%] h-[100%] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2  gap-[3rem] items-center">
           <div>
@@ -23,7 +23,7 @@ function Hero() {
                 My journey in web design began with a fascination for the intersection of aesthetics and functionality, driving me to continuously
                 hone my skills and stay ahead of industry trends.
               </p>
-              <div className="mt-[2rem] flex items-center space-x-6">
+              {/* <div className="mt-[2rem] flex items-center space-x-6">
                 <button
                   className="relative flex h-[50px] w-40 items-center justify-center
                 font-semibold overflow-hidden bg-yellow-500 text-white shadow-2xl transition-all before:absolute before:h-0
@@ -41,12 +41,12 @@ function Hero() {
                 >
                   <span className="relative z-10">Download CV</span>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden md:block rotate-45">
             <Image
-              src={"/images/my-profile-image.png"}
+              src={"/images/profile-img.png"}
               alt="hero"
               width={600}
               height={600}

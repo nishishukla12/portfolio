@@ -10,30 +10,44 @@ function Project() {
           My Best <span className="text-yellow-300">Projects</span>
         </h1>
       </div>
+      <div className="grid lg:grid-cols-3	gap-4 pt-4 w-[80%] m-auto pt-5">
       <ProjectCard
-        title="Ecommerce Websites"
-        tech1="React"
-        tech2="React Native"
-        tech3="Tailwind"
-        tech4="TypeScript"
-        image="/images/shopify.svg"
+        image="/images/beardo_logo.avif"
+        links="https://beardo.in/"
+      />
+       <ProjectCard
+        image="/images/hauselogo.webp"
+        links="https://hausandkinder.com/"
+      />
+       <ProjectCard
+        image="/images/flygrups-logo.svg"
+        links="https://flygrubs.com/"
+      />
+       <ProjectCard
+        image="/images/born_logo.svg"
+        links="https://bornbabies.com/"
+      />
+       <ProjectCard
+        image="/images/unbottle-logo.avif"
+        links="https://www.unbottle.com/"
       />
       <ProjectCard
-        title="Ecommerce Websites"
-        tech1="React"
-        tech2="React Native"
-        tech3="Tailwind"
-        tech4="TypeScript"
-        image="/images/wordpress-logo.png"
+        image="/images/Totem_Final_Logo.avif"
+        links="https://www.totemgoods.com/"
       />
       <ProjectCard
-        title="Ecommerce Websites"
-        tech1="React"
-        tech2="React Native"
-        tech3="Tailwind"
-        tech4="TypeScript"
-        image="/images/react.svg"
+        image="/images/evolu-logo.png"
+        links="https://www.evoluderm.com/"
       />
+      <ProjectCard
+        image="/images/spice-logo.avif"
+        links="https://uk.thespicetailor.com/"
+      />
+      <ProjectCard
+        image="/images/just_herb-logo.avif"
+        links="https://www.justherbs.in/"
+      />
+    </div>
     </div>
   );
 }

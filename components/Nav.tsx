@@ -35,23 +35,18 @@ function Nav({ showNavHandler }: Props) {
             </a>
           </li>
           <li>
-            <a className="nav_link" href="#">
+            <a className="nav_link" href="#about-sec">
               About
             </a>
           </li>
           <li>
-            <a className="nav_link" href="#">
+            <a className="nav_link" href="#service-sec">
               Services
             </a>
           </li>
           <li>
-            <a className="nav_link" href="#">
-              Blog
-            </a>
-          </li>
-          <li>
-            <a className="nav_link" href="#">
-              Contact
+            <a className="nav_link" href="#proj-section">
+              Project
             </a>
           </li>
         </ul>

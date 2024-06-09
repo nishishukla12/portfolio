@@ -21,7 +21,7 @@ function HomePage() {
       <Services />
       <Skills />
       <Project />
-      <Price />
+      {/* <Price /> */}
     </div>
   );
 }

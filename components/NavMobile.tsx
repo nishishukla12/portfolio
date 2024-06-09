@@ -24,23 +24,18 @@ function NavMobile({ showNav, closeNavHandler }: Props) {
           </a>
         </li>
         <li>
-          <a className="nav_link text-[25px] sm-text-[30px]" href="#">
+          <a className="nav_link text-[25px] sm-text-[30px]" href="#about-sec">
             About
           </a>
         </li>
         <li>
-          <a className="nav_link text-[25px] sm-text-[30px]" href="#">
+          <a className="nav_link text-[25px] sm-text-[30px]" href="#service-sec">
             Services
           </a>
         </li>
         <li>
-          <a className="nav_link text-[25px] sm-text-[30px]" href="#">
-            Blog
-          </a>
-        </li>
-        <li>
-          <a className="nav_link text-[25px] sm-text-[30px]" href="#">
-            Contact
+          <a className="nav_link text-[25px] sm-text-[30px]" href="#proj-section">
+            Project
           </a>
         </li>
         <XMarkIcon
