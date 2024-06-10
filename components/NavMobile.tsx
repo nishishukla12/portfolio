@@ -38,6 +38,11 @@ function NavMobile({ showNav, closeNavHandler }: Props) {
             Project
           </a>
         </li>
+        <li>
+          <a className="nav_link text-[25px] sm-text-[30px]" href="#footer-section">
+            Contact us
+          </a>
+        </li>
         <XMarkIcon
           onClick={closeNavHandler}
           className="absolute top-[-1.4rem] right-[1.4rem] w-[2.2rem] h-[2.2rem] text-white"

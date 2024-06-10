@@ -7,6 +7,7 @@ import Services from "@/components/Services";
 import Skills from "@/components/Skills";
 import Project from "@/components/Project";
 import Price from "@/components/Price";
+import Footer from "@/components/Footer";
 
 function HomePage() {
   const [showNav, setShowNav] = useState(false);
@@ -21,6 +22,7 @@ function HomePage() {
       <Services />
       <Skills />
       <Project />
+      <Footer />
       {/* <Price /> */}
     </div>
   );

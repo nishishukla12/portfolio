@@ -49,6 +49,11 @@ function Nav({ showNavHandler }: Props) {
               Project
             </a>
           </li>
+          <li>
+            <a className="nav_link" href="#footer-section">
+              Contact Us
+            </a>
+          </li>
         </ul>
         <Bars3CenterLeftIcon
           onClick={showNavHandler}
