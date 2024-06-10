@@ -18,7 +18,7 @@ function Skills() {
           <button
             className="relative flex h-[50px] w-40 items-center justify-center
                 font-semibold overflow-hidden bg-red-500 text-white shadow-2xl transition-all before:absolute before:h-0
-                before:w-0 before:rounded-full before:bg-blue-600 before:duration-500 before:ease-out hover:before:h-56
+                before:w-0 before:rounded-full before:bg-yellow-600 before:duration-500 before:ease-out hover:before:h-56
                  hover:before:w-56 left-0 right-0 m-auto"
           >
             <a className="relative z-10 m-auto left-0 right-0" href="#hero-sec">Learn More</a>

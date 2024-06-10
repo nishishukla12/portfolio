@@ -16,7 +16,7 @@ function NavMobile({ showNav, closeNavHandler }: Props) {
       ></div>
       <ul
         className={`text-white ${navOpenStype} fixed flex items-center justify-center flex-col h-[100%] transform transition-all duration-300 delay-300 
-         w-[60%] bg-red-600 space-y-14 z-[10006]`}
+         w-[60%] bg-black space-y-14 z-[10006]`}
       >
         <li>
           <a className="nav_link text-[25px] sm-text-[30px]" href="#">

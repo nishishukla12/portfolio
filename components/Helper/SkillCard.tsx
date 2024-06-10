@@ -9,7 +9,7 @@ interface Props {
 
 function SkillCard({ title, image, percent }: Props) {
   return (
-    <div className="p-6 hover:bg-red-700 duration-300 transition-all cursor-pointer text-center rounded-lg bg-gray-800">
+    <div className="p-6 hover:bg-yellow-700 duration-300 transition-all cursor-pointer text-center rounded-lg bg-gray-800">
       <Image
         src={`${image}`}
         alt={title}
