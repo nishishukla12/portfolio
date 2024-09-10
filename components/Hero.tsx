@@ -19,7 +19,7 @@ function Hero() {
               <TypeWriteEffect />
               <p className="mt-[1.2rem] text-[15px] md:text-[17px] text-[#c4cfde]">
       
-               Hello! I’m Nishi Shukla, a passionate and creative web designer with over 4 years of experience in webite designing and user-friendly websites.
+               Hello! I’m Nishi Shukla, a passionate and creative web designer with over 4+ years of experience in website designing and user-friendly websites.
                 My journey in web design began with a fascination for the intersection of aesthetics and functionality, driving me to continuously
                 hone my skills and stay ahead of industry trends.
               </p>

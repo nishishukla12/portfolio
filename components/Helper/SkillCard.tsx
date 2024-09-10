@@ -10,16 +10,17 @@ interface Props {
 function SkillCard({ title, image, percent }: Props) {
   return (
     <div className="p-6 hover:bg-yellow-700 duration-300 transition-all cursor-pointer text-center rounded-lg bg-gray-800">
-      <Image
+     <div className="w-[100px] h-[100px] m-auto flex items-center justify-center"> <Image
         src={`${image}`}
         alt={title}
-        width={80}
-        height={80}
-        className="object-cover mx-auto"
+        width={100}
+        height={100}
+        className="object-cover mx-auto my-auto"
       />
-      <h1 className="text-[18px] mt-[1rem] text-white font-[600]">{title}</h1>
+      </div>
+      <h1 className="text-[18px] mt-[1rem] text-white font-[500]">{title}</h1>
       {/* eslint-disable-next-line react/no-unescaped-entities */}
-      <div className="bg-black mt-[1rem] rounded-lg p-2 text-white opacity-40">
+      <div className="bg-black mt-[1rem]  p-2 text-white opacity-40 rounded-full">
         {percent}
       </div>
     </div>

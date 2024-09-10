@@ -8,7 +8,7 @@ function Footer() {
         <div>
           <div className="font-logo text-white text-[18px]">
             <span className="text-[30px] md:text-[40px] text-yellow-400">
-              WD
+              NS
             </span>
             Nishi
           </div>
@@ -77,7 +77,7 @@ function Footer() {
           <div className="flex items-center mt-[1rem] space-x-2">
             <EnvelopeIcon className="w-[1rem] h-[1rem] text-yellow-300" />
             <p className="text-[17px] font-normal text-white opacity-75">
-              wd.nishishukla406@gmail.com
+              nishishukla406@gmail.com
             </p>
           </div>
           <div className="flex items-center mt-[1rem] space-x-2">
